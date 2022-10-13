@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family:  'Montserrat', sans-serif;
+}
+
+
+body {
+  font-family:  'Montserrat', sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  background-color: rgb(119, 159, 145);
+}
+
+menu{
+  height: 70px;
+  background-color: rgba(0, 0, 113, 0.594);
+  color: white;
+  text-align: center;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.menu ul li{
+}
+
+main div {
+  width: 70%;
+}
+
+main aside {
+  width: 30%;
+}
+
+main {
+  display: flex;
+}
+
+main ul li{
+  margin-bottom: 10px;
+}
+
+.info {
+  text-align: center;
+  height: 10px;
+  background-color: wheat;
+  padding: 60px;
+  margin-bottom: 0;
+}
+
+.info h2 {
+font-weight: 400;
+}
+
+.image-profile {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  display: flex;
+}
+
+.image-profile {
+  justify-content: flex-end;
+}
+/* comentario */
+
+.skills {
+  margin: 0%;
+}
